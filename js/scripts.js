@@ -211,4 +211,8 @@
 		$(this).blur();
 	});
 
+    $('.tab a').on('click', function(e) {
+
+    });
+
 })(jQuery);

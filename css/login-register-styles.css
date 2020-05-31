@@ -8,8 +8,22 @@ html {
 	position: fixed;
     top: 0;
     left: 0;
-    width: 50%;
+    width: 35%;
     height: 100%;
     background: linear-gradient(to bottom right, rgba(72, 72, 212, 0), rgba(241, 104, 104, 0)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
+}
+
+.right .container {
+	position: relative;
+	left: 400px;
+}
+
+.form {
+  background: #33dfff;
+  padding: 40px;
+  max-width:600px;
+  margin:40px auto;
+  border-radius:$br;
+  box-shadow:0 4px 10px 4px #13232f;
 }
