@@ -27,7 +27,7 @@ html {
 .right .container {
 	position: relative;
 	left: 400px;
-	height: 520px;
+	height: 620px;
 }
 
 .right .container img {
@@ -39,15 +39,16 @@ html {
 .panel-login {
 	position: relative;
 	right: 250px;
+	top: 50px;
 }
 .panel-login>.panel-heading {
 	color: #00415d;
-	text-align:center;
+	text-align: center;
 }
 .panel-login>.panel-heading a{
 	padding: 2rem;
 	text-decoration: none;
-	color: #666;
+	color: #FF7F50;
 	font-weight: bold;
 	font-size: 15px;
 	-webkit-transition: all 0.1s linear;
@@ -60,7 +61,7 @@ html {
 	text-decoration: underline;
 	position: relative;
 	color: white;
-	font-size: 18px;
+	font-size: 15px;
 }
 .panel-login>.panel-heading hr{
 	margin-top: 10px;
@@ -83,18 +84,21 @@ html {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	border-color: #ccc;
+
 }
 .btn-login {
-	background-color: orange;
+	position: relative;
+	left: 65px;
+	background-color: #FF7F50;
 	outline: none;
 	color: #fff;
 	font-size: 14px;
 	height: auto;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 14px 0;
 	text-transform: uppercase;
 	border-color: #59B2E6;
+	border-radius: 30%;
 }
 .btn-login:hover,
 .btn-login:focus {
@@ -104,24 +108,27 @@ html {
 }
 .forgot-password {
 	text-decoration: underline;
-	color: #888;
+	color: white;
 }
 .forgot-password:hover,
 .forgot-password:focus {
 	text-decoration: underline;
-	color: #666;
+	color: white;
 }
 
 .btn-register {
-	background-color: orange;
+	position: relative;
+	left: 65px;
+	background-color: #FF7F50;;
 	outline: none;
 	color: #fff;
 	font-size: 14px;
 	height: auto;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 14px 0;
 	text-transform: uppercase;
 	border-color: #1CB94A;
+	border-radius: 30%;
 }
 .btn-register:hover,
 .btn-register:focus {
