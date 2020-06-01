@@ -97,8 +97,9 @@ html {
 	font-weight: bold;
 	padding: 14px 0;
 	text-transform: uppercase;
-	border-color: #59B2E6;
-	border-radius: 30%;
+	border: 0.125rem solid #FF7F50;
+	border-radius: 2rem;
+	background-color: #FF7F50;
 }
 .btn-login:hover,
 .btn-login:focus {
@@ -127,8 +128,9 @@ html {
 	font-weight: bold;
 	padding: 14px 0;
 	text-transform: uppercase;
-	border-color: #1CB94A;
-	border-radius: 30%;
+	border: 0.125rem solid #FF7F50;
+	border-radius: 2rem;
+	background-color: #FF7F50;
 }
 .btn-register:hover,
 .btn-register:focus {
