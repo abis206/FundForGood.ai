@@ -14,6 +14,11 @@ html {
 	background-size: cover;
 }
 
+.left .container img {
+	position: relative;
+	top: 65px;
+}
+
 .right {
   position: relative;
   left: 250px;
@@ -26,19 +31,18 @@ html {
 
 .right .container {
 	position: relative;
-	left: 400px;
-	height: 620px;
+	height: 650px;
 }
 
 .right .container img {
 	position: relative;
-	right: 200px;
+	left: 180px;
 }
 
 
 .panel-login {
 	position: relative;
-	right: 250px;
+	left: 150px;
 	top: 50px;
 }
 .panel-login>.panel-heading {
@@ -88,7 +92,7 @@ html {
 }
 .btn-login {
 	position: relative;
-	left: 65px;
+	left: 30px;
 	background-color: #FF7F50;
 	outline: none;
 	color: #fff;
@@ -100,12 +104,13 @@ html {
 	border: 0.125rem solid #FF7F50;
 	border-radius: 2rem;
 	background-color: #FF7F50;
+	width: 170px;
 }
 .btn-login:hover,
 .btn-login:focus {
 	color: #fff;
-	background-color: #53A3CD;
-	border-color: #53A3CD;
+	background-color: transparent;
+	border-color: orange;
 }
 .forgot-password {
 	text-decoration: underline;
@@ -119,7 +124,7 @@ html {
 
 .btn-register {
 	position: relative;
-	left: 65px;
+	left: 30px;
 	background-color: #FF7F50;;
 	outline: none;
 	color: #fff;
@@ -131,10 +136,11 @@ html {
 	border: 0.125rem solid #FF7F50;
 	border-radius: 2rem;
 	background-color: #FF7F50;
+	width: 170px;
 }
 .btn-register:hover,
 .btn-register:focus {
 	color: #fff;
-	background-color: #1CA347;
-	border-color: #1CA347;
+	background-color: transparent;
+	border-color: orange;
 }
